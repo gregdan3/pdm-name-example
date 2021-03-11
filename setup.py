@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 REQUIRED = ["requests"]
 
-TEST_REQUIREMENTS = ["pytest>=2.8.0", "pylint", "flakes", "bandit"]
+TEST_REQUIREMENTS = []
 
 EXTRAS = {}
 
@@ -50,6 +50,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
