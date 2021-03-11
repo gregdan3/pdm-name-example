@@ -15,7 +15,7 @@ EXTRAS = {}
 
 # Load the package's __version__.py module as a dictionary.
 about = {}
-with open(os.path.join(here, "example", "__version__.py"), "r", encoding="utf-8") as f:
+with open(os.path.join(here, "pdm-name-example", "__version__.py"), "r", encoding="utf-8") as f:
     exec(f.read(), about)
 
 
