@@ -6,6 +6,7 @@ authors = [
 [project.urls]
 homepage = ""
 name = "pdm-name-example"
+summary = "bruh"
 
 [build-system]
 requires = ["pdm-pep517"]
