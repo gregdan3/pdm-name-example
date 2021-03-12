@@ -1,12 +1,18 @@
 [project]
+name = "pdm-name-example"
+version = ""
+description = ""
 authors = [
     {name = "Gregory Danielson", email = "gregory.danielson3@gmail.com"},
 ]
+dependencies = []
+dev-dependencies = []
+required-python = ">=3.7"
+dynamic = []
+license = {text = ""}
 
 [project.urls]
 homepage = ""
-name = "pdm-name-example"
-summary = "bruh"
 
 [build-system]
 requires = ["pdm-pep517"]
