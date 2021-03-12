@@ -1,15 +1,15 @@
 [project]
 name = "pdm-name-example"
-version = ""
-description = ""
+version = "1.0.0"
+description = "example project"
 authors = [
     {name = "Gregory Danielson", email = "gregory.danielson3@gmail.com"},
 ]
-dependencies = []
+dependencies = ["requests"]
 dev-dependencies = []
-required-python = ">=3.7"
-dynamic = []
-license = {text = ""}
+requires-python = ">=3.9"
+dynamic = ["classifiers"]
+license = {text = "GPL"}
 
 [project.urls]
 homepage = ""
@@ -17,6 +17,3 @@ homepage = ""
 [build-system]
 requires = ["pdm-pep517"]
 build-backend = "pdm.pep517.api"
-
-[tool]
-[tool.pdm]
