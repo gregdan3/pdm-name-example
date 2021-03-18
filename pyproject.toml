@@ -5,11 +5,16 @@ description = "example project"
 authors = [
     {name = "Gregory Danielson", email = "gregory.danielson3@gmail.com"},
 ]
-dependencies = ["requests"]
+dependencies = []
 dev-dependencies = []
 requires-python = ">=3.9"
 dynamic = ["classifiers"]
 license = {text = "GPL"}
+
+[project.optional-dependencies]
+reqs = [
+    "requests[security]~=2.25",
+]
 
 [project.urls]
 homepage = ""
@@ -17,3 +22,6 @@ homepage = ""
 [build-system]
 requires = ["pdm-pep517"]
 build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
