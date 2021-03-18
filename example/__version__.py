@@ -1,7 +1,0 @@
-__version__ = "1.0.0"
-__title__ = "example"
-__description__ = ""
-__url__ = ""
-__author__ = ""
-__author_email__ = ""
-__copyright__ = ""

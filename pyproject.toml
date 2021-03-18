@@ -1,18 +1,15 @@
 [project]
-name = "pdm-name-example"
-version = "1.0.0"
+name = "depextra-a"
+version = "1.0.0:"
 description = "example project"
-authors = [
-    {name = "Gregory Danielson", email = "gregory.danielson3@gmail.com"},
+authors = []
+dependencies = [
+    "requests[security]~=2.25",
 ]
-dependencies = ["requests"]
 dev-dependencies = []
-requires-python = ">=3.9"
-dynamic = ["classifiers"]
-license = {text = "GPL"}
-
-[project.urls]
-homepage = ""
+requires-python = ">=3.7"
+dynamic = []
+license = {}
 
 [build-system]
 requires = ["pdm-pep517"]
