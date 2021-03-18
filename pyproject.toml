@@ -1,10 +1,10 @@
 [project]
-name = "depextra-a"
+name = "depextra-b"
 version = "1.0.0:"
 description = "example project"
 authors = []
 dependencies = [
-    "requests[security]~=2.25",
+    "requests[socks]~=2.25",
 ]
 dev-dependencies = []
 requires-python = ">=3.7"
